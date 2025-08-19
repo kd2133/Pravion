@@ -1,0 +1,22 @@
+{
+  // Spell checker languages for this workspace
+  "cSpell.language": "en,de",
+  // Make sure the extension is on
+  "cSpell.enabled": true,
+  // Explicitly enable for these file types
+  "cSpell.enabledFileTypes": {
+    "python": true,
+    "markdown": true,
+    "json": true,
+    "plaintext": true
+  },
+  // Respect .gitignore to avoid noise
+  "cSpell.useGitignore": true,
+  // Workspace dictionary words (use this instead of cSpell.userWords here)
+  "cSpell.words": [
+  "Pravion",
+  "pravion",
+  "PRAVION"
+  ],
+  "python-envs.pythonProjects": []
+}

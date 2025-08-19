@@ -1,0 +1,44 @@
+#############################################
+# Python / Project .gitignore (expanded)
+#############################################
+
+# Virtuelle Umgebung
+.venv/
+venv/
+env/
+ENV/
+
+# Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Lokale Datenbank & Exporte
+data/gsi_data.db
+data/gsi_export_*.csv
+data/social_presence_stats.json
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# IDE / Editor
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Sonstiges
+*.log
+*.bak
+AppData/
+.env
+.DS_Store
+Thumbs.db

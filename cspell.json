@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en,de",
+  "words": [
+  "Pravion",
+  "pravion",
+  "meinungsbasierten",
+  "pycache"
+  ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.git/**",
+    "**/__pycache__/**",
+    "**/*.lock",
+    "**/*.min.*"
+  ]
+}
